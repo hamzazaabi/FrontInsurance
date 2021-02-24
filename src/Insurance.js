@@ -39,7 +39,7 @@ class Insurance extends Component{
                     <div className="form-group">
                         <label>Name:</label>
                         <input type="text" placeholder="name" name="name" className="form-control" value={this.state.name}     onChange={this.onChange} />
-                    </div>
+                        </div>
                     <div className="form-group">
                         <label>Type:</label>
                         <input   placeholder="type" name="type" className="form-control"  value={this.state.type}      onChange={this.onChange} />
